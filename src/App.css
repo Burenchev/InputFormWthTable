@@ -1,0 +1,7 @@
+.App-root {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+  max-width: 1200px;
+}
