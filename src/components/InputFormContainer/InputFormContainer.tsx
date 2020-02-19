@@ -55,7 +55,7 @@ class InputFormContainer extends React.Component<Props, State> {
             onChange={this._handleChange(item.id)}
           >
             {distanceOptions.map(item => (
-              <option key={item.id} value={item.id}>
+              <option className={"InputForm-menuOption"} key={item.id} value={item.id}>
                 {item.name}
               </option>
             ))}

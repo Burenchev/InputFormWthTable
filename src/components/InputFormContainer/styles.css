@@ -37,3 +37,19 @@
 .InputForm-header {
     margin: 20px auto 20px auto !important;
 }
+
+.MuiSelect-selectMenu {
+    white-space: pre-wrap !important;
+}
+
+.InputForm-menuOption {
+    display: block;
+    cursor: pointer;
+}
+
+.InputForm-menuOption:hover {
+    display: block;
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
