@@ -1,5 +1,4 @@
-export const tableMockData = {
-	"users": [
+export const tableMockData = [
 		{
 			"id": 1,
 			"date": "11.03.1987",
@@ -28,4 +27,3 @@ export const tableMockData = {
 			"payment": 1500
 		},
 	]
-}
