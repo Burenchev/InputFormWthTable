@@ -45,6 +45,7 @@ class InputFormContainer extends React.Component<Props, State> {
           <TextField
             onChange={this._handleChange(item.id)}
             value={this.state[item.id]}
+            className={"InputForm-textField"}
           />
         );
       case "select":
@@ -53,6 +54,7 @@ class InputFormContainer extends React.Component<Props, State> {
             select
             value={this.state.distance}
             onChange={this._handleChange(item.id)}
+            className={"InputForm-select"}
           >
             {distanceOptions.map(item => (
               <option className={"InputForm-menuOption"} key={item.id} value={item.id}>

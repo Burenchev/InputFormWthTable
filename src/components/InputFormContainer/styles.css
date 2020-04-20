@@ -22,6 +22,16 @@
 .InputForm-mask {
     border: none;
     border-bottom: 1px solid grey;
+    width: 200px;
+}
+
+.InputForm-textField {
+    width: 200px;
+}
+
+.InputForm-select {
+    width: 200px;
+    text-align: end;
 }
 
 .InputForm-datepicker {
